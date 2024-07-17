@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/container_wiget.dart';
+import 'package:myapp/row_column/latihan.dart';
 
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2240754039.
-void main() {
-  runApp(MyApp());
-}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -13,13 +9,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          backgroundColor: Colors.teal,
-          appBar: AppBar(
-            title: Text('Belajar Flutter'),
-            centerTitle: true,
-            backgroundColor: Colors.greenAccent,
-          ),
-          body: ContainerWidget()),
+        backgroundColor: Colors.teal,
+        appBar: AppBar(
+          title: Text('Belajar Flutter'),
+          centerTitle: true,
+          backgroundColor: Colors.greenAccent,
+        ),
+        body: Latihan1(),
+      ),
     );
   }
 }

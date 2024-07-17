@@ -14,7 +14,7 @@ class NewsContainer extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              top: 0,
+              top: 200,
               left: 0,
               right: 0,
               child: Container(
